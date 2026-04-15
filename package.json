@@ -1,0 +1,19 @@
+{
+  "name": "my-agent",
+  "version": "1.0.0",
+  "main": "dist/cli/index.js",
+  "scripts": {
+    "dev": "ts-node src/cli/index.ts",
+    "build": "tsc",
+    "start": "node dist/cli/index.js"
+  },
+  "devDependencies": {
+    "@types/iconv-lite": "^0.0.1",
+    "@types/node": "^24.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.7.2"
+  }
+}
